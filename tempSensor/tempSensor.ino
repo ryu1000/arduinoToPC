@@ -1,3 +1,8 @@
+// Arduino Sketch to read the humidity and temperature sensor DHT11
+// and send the data through the USB connection to the PC.
+// Author: Jose C. Campos
+// Email: jccava09@gmail.com
+
 #include "DHT.h"
 
 #define DHTPIN 2     // what pin we're connected to
