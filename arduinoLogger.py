@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # Intent: Connects to an Arduino operating as a data logger. Records data to an output file
+# Author: Jose C. Campos
+# Email: jccava09@gmail.com
 
 print "\nPython Script loaded"
 print "Starting program"
