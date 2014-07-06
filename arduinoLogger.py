@@ -19,17 +19,20 @@ databit=0
 readset=[]
 firstRead=True
 
-# Definitions
+# Function definitions
+## Debug message
 def debugmsg(message,stamp):
 	with open(DEBUGOUT, "a") as db:
 		db.write("\n %s" % message)
 		db.write("\t %s" % stamp)
 
+## Write data to file
 def write_readings(data):
 	with open(DATAOUT, "w") as f:
 		f.seek(0)
 		f.write(data)
 
+## Test if the string represents a number
 def is_number(s):
 	try:
 		int(s)
